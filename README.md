@@ -5,6 +5,8 @@ primeiro, renomeie .env.example para .env
 mude a primeira linha com os dados de acesso do banco de dados(postgresql)
 alterando apenas user, pass, host, port e database
 
+rode o comando yarn para instalar as depencencias
+
 apos isso, rode o comando yarn typeorm migration:run para rodar as migrations e instalar o banco de dados
 
 para criar um novo usuario para o sitema, utilize um programa de API rest como postman ou insominia
